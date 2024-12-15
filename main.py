@@ -27,7 +27,7 @@ app = Flask(__name__)
 app.secret_key = SECRET_KEY
 
 # Discord Bot
-intents = discord.Intents.default()
+intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
