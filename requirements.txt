@@ -1,5 +1,5 @@
 flask==2.2.5
 discord.py==2.3.2
 python-dotenv==1.0.0
-playfab-sdk==0.0.230117
+git+https://github.com/PlayFab/SDKGenerator.git#subdirectory=targets/python-sdk
 requests==2.31.0
