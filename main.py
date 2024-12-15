@@ -116,7 +116,7 @@ async def on_message(message):
             view=discord.ui.View(
                 discord.ui.Button(
                     label="Log in with Discord",
-                    url=f"https://yourdomain.com/login"
+                    url=f"https://discord.chok.us.kg/login"
                 )
             )
         )
