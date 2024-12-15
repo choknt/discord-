@@ -5,8 +5,7 @@ import threading
 import requests
 import discord
 from discord.ext import commands
-from playfab.PlayFabClientApi import PlayFabClientAPI
-
+import playfab.PlayFabClientAPI as PlayFabClientAPI
 # โหลดตัวแปรจากไฟล์ .env
 load_dotenv()
 
